@@ -3,13 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: Xiaobia's Blog
+subtitle: Interest in front-end.
+description: Xiaobai
+avatar: https://avatars0.githubusercontent.com/u/28567286?s=460&v=4
 keywords:
-author: John Doe
-language:
-timezone:
+author: Zhijun Fei
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
