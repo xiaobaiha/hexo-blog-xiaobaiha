@@ -33,5 +33,5 @@ window.onload = () => {
   `
     )
     .join("");
-  setTimeout(checkImage, 100);
+  setTimeout(checkImage, 1000);
 };
