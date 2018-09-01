@@ -9,7 +9,6 @@ loadImage = img => {
   }
 };
 checkImage = () => {
-  console.log("enter scroll");
   const imgNode = Array.from(document.querySelectorAll("img[data-src]"));
   imgNode.forEach(img => {
     loadImage(img);
