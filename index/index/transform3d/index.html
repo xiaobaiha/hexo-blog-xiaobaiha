@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>纸牌翻转</title>
+  <style>
+    .stage {
+      width: 164px;
+      height: 251px;
+      perspective: 1000px;
+    }
+
+    .inner {
+      position: relative;
+      transform-origin: center center;
+      transition-duration: 1000ms;
+      transform-style: preserve-3d;
+    }
+
+    .stage:hover .inner {
+      transform: rotateY(180deg) translateZ(0);
+    }
+
+    .front,
+    .back {
+      position: absolute;
+      backface-visibility: hidden;
+    }
+
+    .front {
+      z-index: 4;
+    }
+
+    .back {
+      z-index: 2;
+      transform: rotateY(180deg);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="stage">
+    <div class="inner">
+      <img src="./imgs/K.png" class="front" />
+      <img src="./imgs/back.png" class="back" />
+    </div>
+  </div>
+</body>
+
+</html>
