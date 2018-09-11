@@ -1,18 +1,12 @@
-body {
-  background-color: #000;
-  color: white;
-}
-
-a {
+.index_content a {
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
 
-section,
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.index_content {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
