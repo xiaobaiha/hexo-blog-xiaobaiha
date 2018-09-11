@@ -1,12 +1,42 @@
-.index_content a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
 .index_content {
   z-index: 100;
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.index_content h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3rem;
+  font-size: -webkit-xxx-large;
+  color: white;
+  letter-spacing: 0.5rem;
+}
+
+.index_content section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.index_content section a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.index_content section a:hover {
+  font-size: 2rem;
 }
