@@ -855,7 +855,7 @@ hr {
 /* line 362, ../sass/screen.scss */
 
 .home .intro {
-  background-image: url("/index/imgs/indexbg.jpg");
+  background-image: url("/imgs/indexbg.jpg");
   background-size: cover;
   position: relative;
   overflow: hidden;
