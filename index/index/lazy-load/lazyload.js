@@ -19,7 +19,7 @@ window.onscroll = () => {
   interval = setTimeout(checkImage, 500);
 };
 window.onload = () => {
-  const imgArr = Array(52)
+  const imgArr = Array(25)
     .fill(0)
     .map((e, index) => "./imgs/" + (index + 1) + ".jpg");
   const node = document.getElementById("root");
